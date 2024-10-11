@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        .mainheader{
+            background-color: azure;
+            width: 100%;
+
+        }
+        .searchbar{
+            text-align: center;
+            display: flexbox;
+            border-radius: 20px;
+            margin: 10px;
+
+        }
+        input[type="text"] {
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 20px; /* Add curves to the input */
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        button {
+            margin-left: 10px;
+            margin-right: 20px;
+            padding: 10px 20px;
+            border-radius: 20px; /* Add curves to the button */
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        .Account{
+            text-align: left;
+        }
+        .flex-list {
+            text-align: justify;
+            background-color: beige;
+            padding: 10px;
+            border: #ccc  ;
+            border-collapse: collapse;
+
+        }
+
+            
+
+
+        
+    </style>
+</head>
+<body>
+    <header class="mainheader">
+        <a href="https://pistahouse.in/"><h1>Pista House</h1></a>
+       
+        <a href="https://pistahouse.in/"> <h5>A Legacy of 25years</h5></a>
+        <!-- Search bar -->
+    <form action="/search" method="get" autocomplete="off" target="_blank" class="searchbar">
+        <input type="text" name="query" placeholder="Search..." required>
+        <button type="submit">Search</button>
+        <button style="margin-left: 450px;" >Account</button>
+        <button> About Us</button>
+
+
+    </form>
+   
+    </header>
+    <!-- list -->
+    <div class="flex-list">
+        <ul>
+            <li>Explore Products &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Franschise &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</li>
+            
+            
+            
+        </ul>
+        
+    </div>
+    <img src="./images/Pista home page pic.webp" alt="">
+
+</body>
+</html>
