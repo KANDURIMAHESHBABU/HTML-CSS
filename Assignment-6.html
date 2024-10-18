@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6: Pseudo-elements Selectors
+    </title>
+    <style>
+        div p::before{
+            content: "➤";
+        }
+        .You::after{
+            content: " - End of Section";
+            font-weight: bold;
+        }
+        .One::first-letter{
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+</div><br>
+
+    <h2> This Is Second Heading</h2>
+    <p class="You">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quod recusandae quisquam reprehenderit ex voluptates eligendi eius, est officiis, tempora maiores facere mollitia quibusdam nihil nisi obcaecati expedita eos? Sed.</p>
+    <br>
+    <P class="One">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere accusamus, excepturi doloribus consequatur in. Velit asperiores quaerat at, possimus porro sint voluptas vitae optio, nostrum iste illum voluptatibus quis!</P><br>
+     
+</body>
+</html>
